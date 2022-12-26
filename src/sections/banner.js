@@ -26,14 +26,14 @@ const Banner = () => {
       <Container sx={styles.container}>
         <div sx={styles.content}>
           <Heading as="h1">
-            Cloud CRM Software for entry level business enterprise
+          Easy to use, Production level Machine Learning API
           </Heading>
-          <Text as="p">A simple and powerful erp management tools</Text>
+          <Text as="p">Stop Wrestling with Data Preparation, Model Training, Model Deployment. Use AI functionality in your App with just few api calls.</Text>
           <Flex sx={styles.buttonGroup}>
             <Button variant="primary" sx={styles.btnPrimary}>
-              Try free trial
+            Get Started for Free
             </Button>
-            <Button
+            {/* <Button
               variant="outlined"
               sx={styles.btnOutlined}
               onClick={handleClick}
@@ -45,7 +45,7 @@ const Banner = () => {
               isOpen={videoOpen}
               videoId="ZNA9rmDsYVE"
               onClose={() => setVideoOpen(false)}
-            />
+            /> */}
           </Flex>
         </div>
         <Flex as="figure" sx={styles.illustration}>

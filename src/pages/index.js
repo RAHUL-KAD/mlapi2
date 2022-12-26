@@ -15,19 +15,18 @@ import UltimateFeatures from 'sections/ultimate-features';
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
-      <Layout>
+      <Layout> 
         <SEO
-          title="CRM Software Landing"
-          description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
-        />
+          title="MLApi"
+          description= "Easy to use, Production level Machine Learning API"/>
         <Banner />
-        <Testimonials />
-        <Security />
-        <Addons />
         <Dashboard />
+        {/* <Testimonials /> */}
+        {/* <Security /> */}
+        {/* <Addons /> */}
         <UltimateFeatures />
-        <MobileApp />
-        <Faq />
+        {/* <MobileApp /> */}
+        {/* <Faq /> */}
       </Layout>
     </ThemeProvider>
   );

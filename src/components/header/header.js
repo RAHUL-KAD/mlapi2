@@ -47,7 +47,7 @@ export default function Header() {
               ))}
             </nav>
             <Button variant="primary" sx={styles.button}>
-              Purchase Now
+            Get Started for Free
             </Button>
             <NavbarDrawer isSticky={state.isSticky} />
           </Container>
